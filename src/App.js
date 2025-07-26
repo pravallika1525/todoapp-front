@@ -3,7 +3,7 @@ import axios from 'axios';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://todoapp-o2rx.onrender.com';
 
 function App() {
   const [todos, setTodos] = useState([]);
